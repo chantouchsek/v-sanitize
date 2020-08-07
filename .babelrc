@@ -4,15 +4,9 @@
     "minify"
   ],
   "plugins": [
-    "@babel/plugin-external-helpers",
-    [
-      "@babel/plugin-transform-runtime",
-      {
-        "absoluteRuntime": true,
-        "corejs": 3,
-        "version": "^7.7.4",
-        "useESModules": true
-      }
-    ]
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties",
+    "babel-plugin-transform-es2017-object-entries",
+    "babel-plugin-transform-async-to-generator"
   ]
 }

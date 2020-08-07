@@ -1,4 +1,4 @@
-const sanitizeHtml = require("sanitize-html");
+import sanitizeHtml from 'sanitize-html'
 
 const VSanitize = {
   install (Vue, options = {}) {
