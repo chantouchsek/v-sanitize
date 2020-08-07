@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "minify"
+  ],
+  "plugins": [
+    "@babel/plugin-external-helpers",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "absoluteRuntime": true,
+        "corejs": 3,
+        "version": "^7.7.4",
+        "useESModules": true
+      }
+    ]
+  ]
+}

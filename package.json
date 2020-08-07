@@ -1,0 +1,50 @@
+{
+  "name": "vue-sanitize",
+  "version": "0.0.0",
+  "description": "Whitelist-based HTML sanitizer for Vue.js apps.",
+  "homepage": "https://github.com/Chantouch/v-sanitize",
+  "main": "dist/v-sanitize.js",
+  "types": "types/index.d.ts",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c --name v-sanitize",
+    "release": "standard-version"
+  },
+  "files": [
+    "dist",
+    "nuxt",
+    "types",
+    "src"
+  ],
+  "keywords": [
+    "vue-sanitize",
+    "v-sanitize",
+    "vue",
+    "vue-plugin",
+    "sanitize"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chantouch/v-sanitize.git"
+  },
+  "author": "Chantouch Sek <chantouchsek.cs83@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.merge": "^4.6.2",
+    "sanitize-html": "^1.27.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-external-helpers": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/runtime-corejs3": "^7.11.2",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "babel-preset-minify": "^0.5.1",
+    "prettier": "^2.0.5",
+    "rollup": "^2.23.0"
+  }
+}
