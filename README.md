@@ -38,9 +38,11 @@ yarn add v-sanitize
 
 Register the plugin
 
-``` js
-import VueSanitize from "v-sanitize";
-Vue.use(VueSanitize);
+```vuejs
+import Vue from 'vue';
+import VSanitize from "v-sanitize";
+
+Vue.use(VSanitize);
 ```
 
 You can pass default options too:
@@ -52,7 +54,7 @@ defaultOptions = {
       'a': [ 'href' ]
     }
 };
-Vue.use(VueSanitize, defaultOptions);
+Vue.use(VSanitize, defaultOptions);
 ```
 
 Use it in your components:
@@ -84,13 +86,13 @@ export default {
 
 ## API
 
-### `Vue.use(VueSanitize[, defaultOptions])`
+### `Vue.use(VSanitize[, defaultOptions])`
 
 #### options
 
 * Type: `Object`
 
-This plugin is dependent on [sanitize-html](https://github.com/Chantouch/sanitize-html). For details, see here https://github.com/Chantouch/sanitize-html#readme.
+This plugin is dependent on [sanitize-html](https://github.com/punkave/sanitize-html). For details, see here https://github.com/punkave/sanitize-html#readme.
 
 ### `this.$sanitize(dirty[, options])`
 
@@ -105,7 +107,7 @@ This plugin is dependent on [sanitize-html](https://github.com/Chantouch/sanitiz
 
 If you don't pass an options, the default options will be used.
 
-#### `VueSanitize.defaults`
+#### `VSanitize.defaults`
 
 Return `sanitizeHtml.defaults`.
 
