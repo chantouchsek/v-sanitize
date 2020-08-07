@@ -38,7 +38,7 @@ yarn add v-sanitize
 
 Register the plugin
 
-```vuejs
+```js
 import Vue from 'vue';
 import VSanitize from "v-sanitize";
 
@@ -47,7 +47,7 @@ Vue.use(VSanitize);
 
 You can pass default options too:
 
-``` js
+```js
 defaultOptions = {
     allowedTags: ['a', 'b'],
     allowedAttributes: {
