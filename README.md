@@ -45,6 +45,19 @@ import VSanitize from "v-sanitize";
 Vue.use(VSanitize);
 ```
 
+## Use with NuxtJS
+
+`nuxt.config.js`
+
+```js
+export default {
+  modules: [
+    ['v-sanitize/nuxt', { /* options */ }]
+  ],
+  sanitize: { /* options */ }
+}
+```
+
 You can pass default options too:
 
 ```js
