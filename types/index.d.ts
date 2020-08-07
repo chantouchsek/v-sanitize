@@ -2,11 +2,7 @@ import {PluginFunction} from 'vue';
 
 type AsyncFunction = ((arg0: any) => Promise<any>) | Promise<any>;
 
-export default class VSanitize {
-    constructor(options?: VSanitizeOptions);
-
-    static install(): PluginFunction<any>;
-}
+type VSanitize = (dirty?: any, options?: VSanitizeOptions) => AsyncFunction
 
 export interface VSanitizeOptions {
     allowedTags?: boolean | object | object[]
