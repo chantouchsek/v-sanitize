@@ -31,8 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash.merge": "^4.6.2",
-    "sanitize-html": "^1.27.2",
-    "vue": "^2.6.11"
+    "sanitize-html": "^1.27.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -45,6 +44,7 @@
     "babel-plugin-transform-es2017-object-entries": "^0.0.5",
     "babel-preset-minify": "^0.5.1",
     "prettier": "^2.0.5",
-    "standard-version": "^8.0.2"
+    "standard-version": "^8.0.2",
+    "vue": "^2.6.11"
   }
 }
