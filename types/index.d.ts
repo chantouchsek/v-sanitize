@@ -1,5 +1,4 @@
-import {PluginFunction} from 'vue';
-
+import './vue'
 type AsyncFunction = ((arg0: any) => Promise<any>) | Promise<any>;
 
 type VSanitize = (dirty?: any, options?: VSanitizeOptions) => AsyncFunction

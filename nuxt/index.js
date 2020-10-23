@@ -16,31 +16,11 @@ Usage:
 
 const { resolve } = require('path');
 const merge = require('lodash.merge')
+import { FILTER_BASIC } from '../src'
 
 module.exports = function nuxtVSanitizeModule () {
   const { sanitize = {} } = this.options;
-  const defaultOptions = {
-    allowedTags: [
-      'th', 'td', 'pre', 'iframe',
-      'thead', 'caption', 'tbody', 'tr',
-      'code', 'hr', 'br', 'div', 'table',
-      'h3', 'h4', 'h5', 'h6', 'blockquote',
-      'p', 'a', 'ul', 'ol', 'nl', 'li', 'b',
-      'i', 'strong', 'em', 'strike', 'abbr'
-    ],
-    disallowedTagsMode: 'discard',
-    allowedAttributes: {
-      a: ['href', 'name', 'target'],
-      img: ['src']
-    },
-    selfClosing: ['img', 'br', 'hr', 'area', 'base', 'basefont', 'input', 'link', 'meta'],
-    allowedSchemes: ['http', 'https', 'ftp', 'mailto'],
-    allowedSchemesByTag: {},
-    allowedSchemesAppliedToAttributes: ['href', 'src', 'cite'],
-    allowProtocolRelative: true,
-    enforceHtmlBoundary: false
-  }
-  const options = merge({}, defaultOptions, sanitize)
+  const options = merge({}, FILTER_BASIC, sanitize)
 
   this.addPlugin({
     src: resolve(__dirname, 'v-sanitize-plugin.template.js'),

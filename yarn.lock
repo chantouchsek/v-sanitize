@@ -3922,6 +3922,14 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
+v-sanitize@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/v-sanitize/-/v-sanitize-0.0.2.tgz#a78c789dacdf31469a8b76be108360b66792c66b"
+  integrity sha512-T2zwBauzU4rJ/ZrKzDJwQ/W2xoy1p1cEtt3ZO5b+NGQKYZIP8lV6qFW8Az+Sd10aC9WEgUz6uSP07QY1LvsbAQ==
+  dependencies:
+    lodash.merge "^4.6.2"
+    sanitize-html "^1.27.2"
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
