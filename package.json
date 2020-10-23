@@ -44,7 +44,7 @@
     "babel-plugin-transform-es2017-object-entries": "^0.0.5",
     "babel-preset-minify": "^0.5.1",
     "prettier": "^2.0.5",
-    "standard-version": "^8.0.2",
+    "standard-version": "^9.0.0",
     "v-sanitize": "^0.0.2",
     "vue": "^2.6.11"
   }
