@@ -1,14 +1,14 @@
 {
   "name": "v-sanitize",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Whitelist-based HTML sanitizer for Vue.js apps.",
   "homepage": "https://github.com/Chantouch/v-sanitize",
   "main": "dist/v-sanitize.js",
   "types": "types/index.d.ts",
-  "jsnext:main": "src/index.js",
   "scripts": {
     "build": "rm -rf dist/* && babel src dist --out-file=dist/v-sanitize.js",
-    "release": "standard-version && git push --follow-tags origin master && npm publish"
+    "release": "standard-version && git push --follow-tags origin master && npm publish",
+    "prepublish": "npm run build"
   },
   "files": [
     "dist",
