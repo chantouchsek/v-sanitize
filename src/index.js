@@ -35,13 +35,13 @@ const VSanitize = {
           if (binding.modifiers.strip) {
             el.innerHTML = sanitizeHtml(binding.value, FILTER_STRIP)
           } else if (binding.modifiers.basic) {
-            el.innerHTML = sanitizeHtml(binding.value)
+            el.innerHTML = sanitizeHtml(binding.value, defaultOptions)
           } else if (binding.modifiers.inline) {
             el.innerHTML = sanitizeHtml(binding.value, FILTER_INLINE)
           } else if (binding.modifiers.nothing) {
             el.innerHTML = sanitizeHtml(binding.value, FILTER_NOTHING)
           } else {
-            el.innerHTML = sanitizeHtml(binding.value)
+            el.innerHTML = sanitizeHtml(binding.value, defaultOptions)
           }
         }
       }

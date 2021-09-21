@@ -15,12 +15,18 @@ Usage:
 */
 
 const { resolve } = require('path');
-const merge = require('lodash.merge')
+const mergeWith = require('lodash.mergewith');
+const isArray = require('lodash.isarray');
 import { FILTER_BASIC } from '../src'
 
-module.exports = function nuxtVSanitizeModule () {
+const mergeCustomizer = (objValue, srcValue) =>
+    isArray(objValue) ? srcValue : undefined;
+const mergeOptions = (defaults, userOpt) =>
+    mergeWith({}, defaults, userOpt, mergeCustomizer);
+
+module.exports = function nuxtVSanitizeModule() {
   const { sanitize = {} } = this.options;
-  const options = merge({}, FILTER_BASIC, sanitize)
+  const options = mergeOptions(FILTER_BASIC, sanitize);
 
   this.addPlugin({
     src: resolve(__dirname, 'v-sanitize-plugin.template.js'),
