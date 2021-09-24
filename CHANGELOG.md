@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/chantouchsek/v-sanitize/compare/v0.0.4...v0.0.6) (2021-09-24)
+
+
+### Bug Fixes
+
+* **deps:** bump browserslist from 4.14.0 to 4.16.6 ([93970dd](https://github.com/chantouchsek/v-sanitize/commit/93970ddc068c928ddb16aed1ce51f97a5d5e5473))
+* **deps:** bump handlebars from 4.7.6 to 4.7.7 ([987a5bc](https://github.com/chantouchsek/v-sanitize/commit/987a5bca4c2b7d0c16c62290fcc60cdd2f51fc25))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([dfc57fe](https://github.com/chantouchsek/v-sanitize/commit/dfc57fe7a1afdc7de1532e0aa14f376999c8dd2d))
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([a6a0367](https://github.com/chantouchsek/v-sanitize/commit/a6a0367609853beadc9e972b845734eb87c6019e))
+* **deps:** bump lodash from 4.17.19 to 4.17.21 ([cb9bd92](https://github.com/chantouchsek/v-sanitize/commit/cb9bd9284518eed952fafa807a55bccc486b4fbc))
+* **deps:** bump postcss from 7.0.32 to 7.0.36 ([fdf7413](https://github.com/chantouchsek/v-sanitize/commit/fdf7413c04290a97c43773064653d4fdc917a4c0))
+* **deps:** bump sanitize-html from 2.1.1 to 2.1.2 ([122ee34](https://github.com/chantouchsek/v-sanitize/commit/122ee34725cfad8ffc9567697554b0ab4211fb43))
+* **deps:** bump sanitize-html from 2.1.2 to 2.3.0 ([36de42d](https://github.com/chantouchsek/v-sanitize/commit/36de42d73c3b1e9869adfe1abe93c92347966e1c))
+* **deps:** bump sanitize-html from 2.3.0 to 2.3.2 ([471aa62](https://github.com/chantouchsek/v-sanitize/commit/471aa6284312915ff48de0ba0d57bb8dcaf32233))
+* **deps:** bump sanitize-html from 2.3.2 to 2.4.0 ([19df13b](https://github.com/chantouchsek/v-sanitize/commit/19df13b117aa2c9757fec17041902f3bcd22331f))
+* **options:** nuxt options used in directive + merge overrides ([cb6faad](https://github.com/chantouchsek/v-sanitize/commit/cb6faad404a9e47cbf4f65b595448b9f4e67d1dc))
+
 ### [0.0.2](https://github.com/Chantouch/v-sanitize/compare/v0.1.0...v0.0.2) (2020-08-10)
 
 ### [0.0.2-alpha.0](https://github.com/Chantouch/v-sanitize/compare/v0.0.1...v0.0.2-alpha.0) (2020-08-07)
