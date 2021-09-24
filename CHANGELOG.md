@@ -4,9 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.5](https://github.com/chantouchsek/v-sanitize/compare/v0.0.6...v0.0.5) (2021-09-24)
 
-### [0.0.6](https://github.com/chantouchsek/v-sanitize/compare/v0.0.4...v0.0.6) (2021-09-24)
-
-
 ### Bug Fixes
 
 * **deps:** bump browserslist from 4.14.0 to 4.16.6 ([93970dd](https://github.com/chantouchsek/v-sanitize/commit/93970ddc068c928ddb16aed1ce51f97a5d5e5473))
