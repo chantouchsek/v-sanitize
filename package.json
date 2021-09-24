@@ -30,7 +30,8 @@
   "author": "Chantouch Sek <chantouchsek.cs83@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash.merge": "^4.6.2",
+    "lodash.isarray": "^4.0.0",
+    "lodash.mergewith": "^4.6.2",
     "sanitize-html": "^2.1.1"
   },
   "devDependencies": {
