@@ -15,13 +15,13 @@ Whitelist-based HTML sanitizer (sanitize-html) for Vue.js apps.
   <a href="https://github.com/chantouchsek/v-sanitize/issues">
     <img src="https://img.shields.io/github/issues/chantouchsek/v-sanitize.svg?style=flat-square" alt="Issues" />
   </a>
-  <a href="https://npmjs.com/package/vue-api-queries">
+  <a href="https://npmjs.com/package/v-sanitize">
     <img src="https://img.shields.io/npm/dt/v-sanitize.svg?style=flat-square" alt="Download" />
   </a>  
-  <a href="https://npmjs.com/package/vue-api-queries">
+  <a href="https://npmjs.com/package/v-sanitize">
     <img src="https://img.shields.io/npm/dm/v-sanitize.svg?style=flat-square" alt="Download" />
   </a>
-  <a href="https://npmjs.com/package/vue-api-queries">
+  <a href="https://npmjs.com/package/v-sanitize">
     <img src="https://img.shields.io/npm/dw/v-sanitize.svg?style=flat-square" alt="Download" />
   </a>
   
