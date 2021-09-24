@@ -9,20 +9,20 @@ Whitelist-based HTML sanitizer (sanitize-html) for Vue.js apps.
   <a href="https://npmjs.org/package/v-sanitize">
     <img src="https://img.shields.io/npm/v/v-sanitize.svg?style=flat-square" alt="Packagist" />
   </a>
-  <a href="https://github.com/Chantouch/v-sanitize/releases">
-    <img src="https://img.shields.io/github/release/Chantouch/v-sanitize.svg?style=flat-square" alt="Latest Version" />
+  <a href="https://github.com/chantouchsek/v-sanitize/releases">
+    <img src="https://img.shields.io/github/release/chantouchsek/v-sanitize.svg?style=flat-square" alt="Latest Version" />
   </a>
-  <a href="https://github.com/Chantouch/v-sanitize/issues">
-    <img src="https://img.shields.io/github/issues/Chantouch/v-sanitize.svg?style=flat-square" alt="Issues" />
+  <a href="https://github.com/chantouchsek/v-sanitize/issues">
+    <img src="https://img.shields.io/github/issues/chantouchsek/v-sanitize.svg?style=flat-square" alt="Issues" />
   </a>
   <a href="https://npmjs.com/package/vue-api-queries">
-    <img src="https://img.shields.io/npm/dt/vue-api-queries.svg?style=flat-square" alt="Download" />
+    <img src="https://img.shields.io/npm/dt/v-sanitize.svg?style=flat-square" alt="Download" />
   </a>  
   <a href="https://npmjs.com/package/vue-api-queries">
-    <img src="https://img.shields.io/npm/dm/vue-api-queries.svg?style=flat-square" alt="Download" />
+    <img src="https://img.shields.io/npm/dm/v-sanitize.svg?style=flat-square" alt="Download" />
   </a>
   <a href="https://npmjs.com/package/vue-api-queries">
-    <img src="https://img.shields.io/npm/dw/vue-api-queries.svg?style=flat-square" alt="Download" />
+    <img src="https://img.shields.io/npm/dw/v-sanitize.svg?style=flat-square" alt="Download" />
   </a>
   
 </p>
