@@ -3695,7 +3695,7 @@ safe-buffer@~5.2.0:
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
-sanitize-html@^2.1.1, sanitize-html@^2.6.1:
+sanitize-html@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/sanitize-html/-/sanitize-html-2.6.1.tgz#5d37c08e189c61c0631560a889b10d9d155d000e"
   integrity sha512-DzjSz3H5qDntD7s1TcWCSoRPmNR8UmA+y+xZQOvWgjATe2Br9ZW73+vD3Pj6Snrg0RuEuJdXgrKvnYuiuixRkA==
@@ -4121,14 +4121,6 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-v-sanitize@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/v-sanitize/-/v-sanitize-0.0.4.tgz"
-  integrity sha512-VZiQcjKKVcnwEQj4XTWijO4DZWEg4XmPdBKyCrg0u1Es2q1MXrH3l9Rfe9FHvhi6vOihSWq0+rwwP8GH3PcBwA==
-  dependencies:
-    lodash.merge "^4.6.2"
-    sanitize-html "^2.1.1"
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"

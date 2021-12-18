@@ -54,7 +54,6 @@
     "rimraf": "^3.0.2",
     "standard-version": "^9.3.1",
     "typescript": "^4.5.4",
-    "v-sanitize": "^0.0.4",
     "vue": "^2.6.14"
   },
   "publishConfig": {
