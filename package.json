@@ -3,19 +3,14 @@
   "version": "0.0.5",
   "description": "Whitelist-based HTML sanitizer for Vue.js apps.",
   "homepage": "https://github.com/chantouchsek/v-sanitize",
-  "main": "dist/v-sanitize.js",
-  "types": "types/index.d.ts",
+  "main": "dist/sanitize.js",
+  "types": "dist/sanitize.d.ts",
   "scripts": {
-    "build": "rm -rf dist/* && babel src --out-file=dist/v-sanitize.js",
-    "release": "standard-version && git push --follow-tags origin master && yarn publish",
-    "prepublish": "npm run build"
+    "build": "rimraf dist && npx tsc",
+    "release": "standard-version && git push --follow-tags origin main && yarn publish",
+    "prepublish": "yarn build"
   },
-  "files": [
-    "dist",
-    "nuxt",
-    "types",
-    "src"
-  ],
+  "files": ["dist", "nuxt"],
   "keywords": [
     "vue-sanitize",
     "v-sanitize",
@@ -27,12 +22,15 @@
     "type": "git",
     "url": "https://github.com/chantouchsek/v-sanitize.git"
   },
-  "author": "Chantouch Sek <chantouchsek.cs83@gmail.com>",
+  "author": {
+    "email": "chantouchsek.cs83@gmail.com",
+    "name": "Chantouch Sek",
+    "url": "https://chantouch.me"
+  },
   "license": "MIT",
   "dependencies": {
-    "lodash.isarray": "^4.0.0",
     "lodash.mergewith": "^4.6.2",
-    "sanitize-html": "^2.5.1"
+    "sanitize-html": "^2.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -41,11 +39,18 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/preset-env": "^7.15.6",
+    "@types/sanitize-html": "^2.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-es2017-object-entries": "^0.0.5",
     "babel-preset-minify": "^0.5.1",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
     "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
     "standard-version": "^9.3.1",
+    "typescript": "^4.5.4",
     "v-sanitize": "^0.0.4",
     "vue": "^2.6.14"
   },
