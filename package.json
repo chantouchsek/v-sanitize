@@ -6,11 +6,14 @@
   "main": "dist/sanitize.js",
   "types": "dist/sanitize.d.ts",
   "scripts": {
-    "build": "rimraf dist && npx tsc",
+    "build": "rimraf dist && npx tsc && cp src/vue.d.ts dist/vue.d.ts",
     "release": "standard-version && git push --follow-tags origin main && yarn publish",
     "prepublish": "yarn build"
   },
-  "files": ["dist", "nuxt"],
+  "files": [
+    "dist",
+    "nuxt"
+  ],
   "keywords": [
     "vue-sanitize",
     "v-sanitize",

@@ -1,6 +1,10 @@
 import sanitizeHtml, {IOptions} from 'sanitize-html'
 import _Vue from "vue";
+import './vue'
 
+interface Options {
+    name?: string
+}
 export const FILTER_BASIC: IOptions = sanitizeHtml.defaults
 export const FILTER_INLINE: IOptions = {
     allowedTags: ['a', 'b', 'br', 'code', 'em', 'i', 'span', 'strike', 'strong', 'u'],
@@ -22,9 +26,7 @@ export const FILTER_STRIP: IOptions = {
     allowedTags: [],
     allowedAttributes: {}
 }
-interface Options {
-    name?: string
-}
+export type Sanitizer = (dirty?: any, options?: IOptions) => string
 
 const VSanitize = {
     install (Vue: typeof _Vue, options: Options = {}) {

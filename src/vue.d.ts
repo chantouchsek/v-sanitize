@@ -1,26 +1,21 @@
-/**
- * Extends interfaces in Vue.js
- */
-
 import _Vue from 'vue'
-import { VSanitize } from './';
+import {Sanitizer} from "./sanitize";
 
 declare module '@nuxt/types' {
     interface Context {
-        $sanitize: VSanitize;
+        $sanitize: Sanitizer;
     }
     interface NuxtAppOptions {
-        $sanitize: VSanitize;
+        $sanitize: Sanitizer;
     }
 }
 declare module 'vue/types/vue' {
     interface Vue {
-        $sanitize: VSanitize;
+        $sanitize: Sanitizer;
     }
 }
-
 declare module 'vue/types/options' {
     interface ComponentOptions<V extends _Vue> {
-        sanitize?: VSanitize;
+        sanitize?: Sanitizer;
     }
 }

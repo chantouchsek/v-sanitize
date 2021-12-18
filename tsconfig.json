@@ -8,7 +8,10 @@
     "strict": true,
     "declaration": true,
     "outDir": "dist",
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "sourceMap": true,
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*", "coverage"]
