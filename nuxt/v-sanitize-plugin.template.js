@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import VSanitize from 'v-sanitize';
 
-export default ({ app }) => {
-  const [pluginOptions] = [<%= serialize(options) %>]
+const [pluginOptions] = [<%= serialize(options) %>]
+Vue.use(VSanitize, {...pluginOptions});
 
-  Vue.use(VSanitize, { ...pluginOptions });
-  app.$sanitize = VSanitize;
+export default ({app}, inject) => {
+  inject('sanitize', VSanitize);
 }
