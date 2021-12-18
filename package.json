@@ -1,12 +1,12 @@
 {
   "name": "v-sanitize",
-  "version": "0.0.5-27303855.ab1c6cb4",
+  "version": "0.0.5-27305297.ab1c6cb4",
   "description": "Whitelist-based HTML sanitizer for Vue.js apps.",
   "homepage": "https://github.com/chantouchsek/v-sanitize",
   "main": "dist/sanitize.js",
   "types": "dist/sanitize.d.ts",
   "scripts": {
-    "build": "rimraf dist && npx tsc && cp src/vue.d.ts dist/vue.d.ts",
+    "build": "rimraf dist && npx tsc",
     "release": "standard-version && git push --follow-tags origin main && yarn publish",
     "prepublish": "yarn build"
   },
