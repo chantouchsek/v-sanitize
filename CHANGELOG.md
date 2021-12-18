@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/chantouchsek/v-sanitize/compare/v0.0.5...v0.0.6) (2021-12-18)
+
+
+### Features
+
+* update project to use typescript ([74785a0](https://github.com/chantouchsek/v-sanitize/commit/74785a0b235b8f750cfe0f6f03338a040518a26a))
+
+
+### Bug Fixes
+
+* fixed of typer ([de1b0df](https://github.com/chantouchsek/v-sanitize/commit/de1b0dfffd1184b020a88e5a496356623197520c))
+* fixed of types ([406bb25](https://github.com/chantouchsek/v-sanitize/commit/406bb25687948aa29efe86f3fc8ea4ea96d7cb38))
+* nuxt module ([2b850dd](https://github.com/chantouchsek/v-sanitize/commit/2b850dd00fbee730e6edf28ca9ecee854e91e9e5))
+* **deps:** bump sanitize-html from 2.5.1 to 2.5.3 ([5593dc7](https://github.com/chantouchsek/v-sanitize/commit/5593dc72d643d40618602d0cfaaef5eb05f1e9d9))
+* **deps:** bump sanitize-html from 2.5.3 to 2.6.1 ([ca82261](https://github.com/chantouchsek/v-sanitize/commit/ca8226161b9de7ef8f673de84fff195f480bc68a))
+* **nuxt:** update injection of package into nuxt, remove possible memory leak ([13dcc20](https://github.com/chantouchsek/v-sanitize/commit/13dcc2027299d1dd1e1e84ca59112ba881951867))
+
 ### [0.0.5](https://github.com/chantouchsek/v-sanitize/compare/v0.0.6...v0.0.5) (2021-09-24)
 
 ### Bug Fixes
