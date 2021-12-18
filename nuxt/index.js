@@ -16,7 +16,7 @@ Usage:
 
 const { resolve } = require('path');
 const mergeWith = require('lodash.mergewith');
-import { FILTER_BASIC } from '../src'
+import { FILTER_BASIC } from 'v-sanitize'
 
 const mergeCustomizer = (objValue, srcValue) => Array.isArray(objValue) ? srcValue : undefined;
 const mergeOptions = (defaults, userOpt) => mergeWith({}, defaults, userOpt, mergeCustomizer);
