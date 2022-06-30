@@ -1,5 +1,6 @@
 import sanitizeHtml, {IOptions} from 'sanitize-html'
-import _Vue from "vue";
+import { App, DirectiveBinding, Plugin } from 'vue';
+
 interface Options {
     name?: string
 }
@@ -26,34 +27,17 @@ export const FILTER_STRIP: IOptions = {
 }
 export type Sanitizer = (dirty?: any, options?: IOptions) => string
 
-// @ts-ignore
-declare module '@nuxt/types' {
-    interface Context {
-        $sanitize: Sanitizer;
-    }
-    interface NuxtAppOptions {
-        $sanitize: Sanitizer;
-    }
-}
-declare module 'vue/types/vue' {
-    interface Vue {
-        $sanitize: Sanitizer;
-    }
-}
-declare module 'vue/types/options' {
-    interface ComponentOptions<V extends _Vue> {
-        sanitize?: Sanitizer;
-    }
-}
-
-const VSanitize = {
-    install (Vue: typeof _Vue, options: Options = {}) {
+const VSanitize: Plugin= {
+    install (app: App, options: Options = {}): void {
         const defaultOptions = options;
         const { name = 'sanitize' } = defaultOptions;
         delete defaultOptions.name
         const options1 = { ...defaultOptions } as IOptions
-        Vue.prototype[`$${name}`] = (dirty: string, opts = undefined) => sanitizeHtml(dirty, opts || options1);
-        Vue.directive(name,  (el, binding) => {
+
+        (app.config.globalProperties[`$${name}`] as Sanitizer) = (dirty: string, opts = undefined) => sanitizeHtml(dirty, opts || options1);
+
+        app.directive(name,  {
+            created(el, binding: DirectiveBinding) {
             if (binding.value !== binding.oldValue) {
                 if (Array.isArray(binding.value)) {
                     el.innerHTML = sanitizeHtml(binding.value[1], binding.value[0])
@@ -71,9 +55,9 @@ const VSanitize = {
                     }
                 }
             }
+        }
         })
-    },
-    defaults: FILTER_BASIC
+    }
 };
 
 export default VSanitize;
