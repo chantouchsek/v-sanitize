@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/chantouchsek/v-sanitize/compare/v0.0.6...v0.0.7) (2022-07-08)
+
+
+### Bug Fixes
+
+* type.d and added contributors ([3fae7fb](https://github.com/chantouchsek/v-sanitize/commit/3fae7fba26102ab040c649415157e3fa891fbef0))
+* update sanitize-html typings ([eeba34d](https://github.com/chantouchsek/v-sanitize/commit/eeba34d46d19b8a0594fe2e1ccd4ed6012f8b8c7))
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([3f49246](https://github.com/chantouchsek/v-sanitize/commit/3f49246d007e135a9bf19bf263b8d117da557f3a))
+* **deps:** bump nanoid from 3.1.30 to 3.2.0 ([4f712e5](https://github.com/chantouchsek/v-sanitize/commit/4f712e5648bb1cdaa9f861e8409180af4f210c4e))
+* **deps:** bump sanitize-html from 2.6.1 to 2.7.0 ([cff510e](https://github.com/chantouchsek/v-sanitize/commit/cff510e7c5365e2806fee84d683706056da338c2))
+* **deps:** bump shelljs from 0.8.4 to 0.8.5 ([b2461f4](https://github.com/chantouchsek/v-sanitize/commit/b2461f4168c8cb1520e356c686f163324b6a63c6))
+* **deps:** bump trim-off-newlines from 1.0.1 to 1.0.3 ([6912c9c](https://github.com/chantouchsek/v-sanitize/commit/6912c9c72e096c054e56d1c32fb3842a743bd4c4))
+
 ### [0.0.6](https://github.com/chantouchsek/v-sanitize/compare/v0.0.5...v0.0.6) (2021-12-18)
 
 
