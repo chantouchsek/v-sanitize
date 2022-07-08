@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/chantouchsek/v-sanitize/compare/v0.0.7...v0.0.8) (2022-07-08)
+
+
+### Bug Fixes
+
+* type missing from module ([72abb92](https://github.com/chantouchsek/v-sanitize/commit/72abb92370e1d006b17d605b8b0b90c9cea35dc1))
+
 ### [0.0.7](https://github.com/chantouchsek/v-sanitize/compare/v0.0.6...v0.0.7) (2022-07-08)
 
 
