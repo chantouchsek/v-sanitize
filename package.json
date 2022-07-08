@@ -6,7 +6,7 @@
   "main": "dist/sanitize.js",
   "types": "dist/sanitize.d.ts",
   "scripts": {
-    "build": "rimraf dist && npx tsc",
+    "build": "rimraf dist && npx tsc && cp src/type.d.ts dist",
     "release": "standard-version && git push --follow-tags origin main && yarn publish",
     "prepublish": "yarn build"
   },
