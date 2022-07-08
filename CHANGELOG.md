@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/chantouchsek/v-sanitize/compare/v0.0.8...v0.0.9) (2022-07-08)
+
+
+### Bug Fixes
+
+* :fire: inject a correct type ([dcfc4a8](https://github.com/chantouchsek/v-sanitize/commit/dcfc4a807bd2da364f2a7ba15ed34a746c43a391))
+
 ### [0.0.8](https://github.com/chantouchsek/v-sanitize/compare/v0.0.7...v0.0.8) (2022-07-08)
 
 
