@@ -30,6 +30,16 @@
     "name": "Chantouch Sek",
     "url": "https://chantouch.me"
   },
+  "contributors": [
+    {
+      "name": "Patrik Jánosdeák",
+      "url": "https://github.com/truesteps"
+    },
+    {
+      "name": "lsimone",
+      "url": "https://github.com/lsimone"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "lodash.mergewith": "^4.6.2",
