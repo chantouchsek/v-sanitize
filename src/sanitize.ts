@@ -1,11 +1,11 @@
-import sanitizeHtml, {IOptions, defaults} from 'sanitize-html'
+import sanitizeHtml, {IOptions, defaults, IDefaults} from 'sanitize-html'
 import _Vue from "vue";
 import './type'
 
 interface Options {
     name?: string
 }
-export const FILTER_BASIC: IOptions = defaults
+export const FILTER_BASIC: IDefaults = defaults
 export const FILTER_INLINE: IOptions = {
     allowedTags: ['a', 'b', 'br', 'code', 'em', 'i', 'span', 'strike', 'strong', 'u'],
     allowedAttributes: {
