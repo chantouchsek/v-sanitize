@@ -1,6 +1,24 @@
 import sanitizeHtml, {IOptions, defaults, IDefaults} from 'sanitize-html'
 import _Vue from "vue";
-import './type'
+
+declare module '@nuxt/types' {
+    interface Context {
+        $sanitize: Sanitizer;
+    }
+    interface NuxtAppOptions {
+        $sanitize: Sanitizer;
+    }
+}
+declare module 'vue/types/vue' {
+    interface Vue {
+        $sanitize: Sanitizer;
+    }
+}
+declare module 'vue/types/options' {
+    interface ComponentOptions<V extends _Vue> {
+        sanitize?: Sanitizer;
+    }
+}
 
 interface Options {
     name?: string
