@@ -1,9 +1,11 @@
-import sanitizeHtml, {IOptions} from 'sanitize-html'
+import sanitizeHtml, {IOptions, defaults} from 'sanitize-html'
 import _Vue from "vue";
+import './type'
+
 interface Options {
     name?: string
 }
-export const FILTER_BASIC: IOptions = sanitizeHtml.defaults
+export const FILTER_BASIC: IOptions = defaults
 export const FILTER_INLINE: IOptions = {
     allowedTags: ['a', 'b', 'br', 'code', 'em', 'i', 'span', 'strike', 'strong', 'u'],
     allowedAttributes: {
@@ -25,26 +27,6 @@ export const FILTER_STRIP: IOptions = {
     allowedAttributes: {}
 }
 export type Sanitizer = (dirty?: any, options?: IOptions) => string
-
-// @ts-ignore
-declare module '@nuxt/types' {
-    interface Context {
-        $sanitize: Sanitizer;
-    }
-    interface NuxtAppOptions {
-        $sanitize: Sanitizer;
-    }
-}
-declare module 'vue/types/vue' {
-    interface Vue {
-        $sanitize: Sanitizer;
-    }
-}
-declare module 'vue/types/options' {
-    interface ComponentOptions<V extends _Vue> {
-        sanitize?: Sanitizer;
-    }
-}
 
 const VSanitize = {
     install (Vue: typeof _Vue, options: Options = {}) {
