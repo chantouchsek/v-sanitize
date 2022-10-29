@@ -17,6 +17,7 @@
 				"./*"
 			]
 		},
+		"baseUrl": ".",
 		"moduleResolution": "Node",
 		"esModuleInterop": true,
 		"strict": true,
@@ -29,11 +30,13 @@
 	},
 	"include": [
 		"./src/**/*.ts",
+		"./src/**/*.ts",
 		"./src/**/*.tsx",
 		"./src/**/*.vue",
-		"./example/**/*.ts",
-		"./example/**/*.tsx",
-		"./example/**/*.vue"
+		"./example/src/**/*.ts",
+		"./example/src/**/*.ts",
+		"./example/src/**/*.tsx",
+		"./example/src/**/*.vue"
 	],
 	"exclude": [
 		"node_modules",
