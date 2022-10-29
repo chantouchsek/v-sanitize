@@ -22,15 +22,15 @@ const mergeCustomizer = (objValue, srcValue) => Array.isArray(objValue) ? srcVal
 const mergeOptions = (defaults, userOpt) => mergeWith({}, defaults, userOpt, mergeCustomizer);
 
 module.exports = function nuxtVSanitizeModule() {
-  const { sanitize = {} } = this.options;
-  const options = mergeOptions(FILTER_BASIC, sanitize);
+	const { sanitize = {} } = this.options;
+	const options = mergeOptions(FILTER_BASIC, sanitize);
 
-  this.addPlugin({
-    src: resolve(__dirname, 'v-sanitize-plugin.template.js'),
-    fileName: 'v-sanitize.js',
-    options,
-  });
-  this.options.build.transpile.push(/^sanitize-html/);
+	this.addPlugin({
+		src: resolve(__dirname, 'v-sanitize-plugin.template.js'),
+		fileName: 'v-sanitize.js',
+		options,
+	});
+	this.options.build.transpile.push(/^sanitize-html/);
 }
 
 // required by nuxt

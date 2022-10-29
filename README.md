@@ -24,12 +24,13 @@ Whitelist-based HTML sanitizer (sanitize-html) for Vue.js apps.
   <a href="https://npmjs.com/package/v-sanitize">
     <img src="https://img.shields.io/npm/dw/v-sanitize.svg?style=flat-square" alt="Download" />
   </a>
-  
+
 </p>
 
 ## Note
 
-We should always sanitize user input values on the server. Do sanitize with Vue only for necessary cases (e.g markdown preview).
+We should always sanitize user input values on the server. Do sanitize with Vue only for necessary cases (e.g markdown
+preview).
 
 ## Install
 
@@ -114,7 +115,8 @@ export default {
 
 * Type: `Object`
 
-This plugin is dependent on [sanitize-html](https://github.com/punkave/sanitize-html). For details, see here https://github.com/punkave/sanitize-html#readme.
+This plugin is dependent on [sanitize-html](https://github.com/punkave/sanitize-html). For details, see
+here https://github.com/punkave/sanitize-html#readme.
 
 ### `this.$sanitize(dirty[, options])`
 
@@ -137,7 +139,11 @@ Return `sanitizeHtml.defaults`.
 
 [Vue](https://vuejs.org)'s default `v-text` is HTML-insensitive, while `v-html` doesn't perform sanitization by default.
 
-`v-sanitize` is a Vue directive for HTML sanitization, powered by the flexible [sanitize-html](https://www.npmjs.com/package/sanitize-html). The directive can receive either a string, that will undergo a partial sanitization if no modifier is present, or an array of two elements, the first being a `sanitize-html` whitelist ([know more here](https://github.com/punkave/sanitize-html)) and the second being the string to be sanitized.
+`v-sanitize` is a Vue directive for HTML sanitization, powered by the
+flexible [sanitize-html](https://www.npmjs.com/package/sanitize-html). The directive can receive either a string, that
+will undergo a partial sanitization if no modifier is present, or an array of two elements, the first being
+a `sanitize-html` whitelist ([know more here](https://github.com/punkave/sanitize-html)) and the second being the string
+to be sanitized.
 
 ```html
 <div v-sanitize="unsafe_html"></div>
@@ -168,6 +174,7 @@ Removes most tags, keeping only inline formatting and `<br/>` tags.
 ```
 
 ### Allow all tags (`.nothing` modifier)
+
 Allows all HTML tags, not performing sanitization. For all effects, it's a replacement for `v-html`.
 
 ```html
@@ -181,7 +188,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ## Security
 
 If you discover any security related issues, please email chantouchsek.cs83@gmail.com instead of using the issue
- tracker.
+tracker.
 
 ## Contributing
 
