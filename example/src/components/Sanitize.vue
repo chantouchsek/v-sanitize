@@ -20,13 +20,9 @@
 				<img src="../assets/img/vue-logo.svg" />
 			</div>
 
-			<p>
-				Hello World!
-			</p>
+			<div data-test="sanitizeDirective" v-sanitize.inline="testString" />
 
-			<div v-sanitize.inline="testString" />
-
-			<div v-html="sanitizedString" />
+			<div data-test="sanitizeFunction" v-html="sanitizedString" />
 		</section>
 	</main>
 </template>
