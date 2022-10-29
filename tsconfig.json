@@ -1,18 +1,43 @@
 {
-  "compilerOptions": {
-    "target": "ES2021",
-    "module": "CommonJS",
-    "lib": ["ES5", "ES6", "ES2015", "ES2016", "ES2017", "ES2018", "ESNext", "DOM"],
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "strict": true,
-    "declaration": true,
-    "outDir": "dist",
-    "typeRoots": [
-      "./node_modules/@types"
-    ],
-    "sourceMap": true,
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*", "coverage"]
+	"compilerOptions": {
+		"target": "ES2021",
+		"module": "CommonJS",
+		"lib": [
+			"ES5",
+			"ES6",
+			"ES2015",
+			"ES2016",
+			"ES2017",
+			"ES2018",
+			"ESNext",
+			"DOM"
+		],
+		"paths": {
+			"@/*": [
+				"./*"
+			]
+		},
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"strict": true,
+		"declaration": true,
+		"outDir": "dist",
+		"typeRoots": [
+			"./node_modules/@types"
+		],
+		"sourceMap": true
+	},
+	"include": [
+		"./src/**/*.ts",
+		"./src/**/*.tsx",
+		"./src/**/*.vue",
+		"./example/**/*.ts",
+		"./example/**/*.tsx",
+		"./example/**/*.vue"
+	],
+	"exclude": [
+		"node_modules",
+		"**/__tests__/*",
+		"coverage"
+	]
 }
