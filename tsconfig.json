@@ -1,46 +1,71 @@
 {
-	"compilerOptions": {
-		"target": "ES2021",
-		"module": "CommonJS",
-		"lib": [
-			"ES5",
-			"ES6",
-			"ES2015",
-			"ES2016",
-			"ES2017",
-			"ES2018",
-			"ESNext",
-			"DOM"
-		],
-		"paths": {
-			"@/*": [
-				"./*"
-			]
-		},
-		"baseUrl": ".",
-		"moduleResolution": "Node",
-		"esModuleInterop": true,
-		"strict": true,
-		"declaration": true,
-		"outDir": "dist",
-		"typeRoots": [
-			"./node_modules/@types"
-		],
-		"sourceMap": true
+	"name": "v-sanitize",
+	"version": "0.0.6",
+	"description": "Whitelist-based HTML sanitizer for Vue.js apps.",
+	"homepage": "https://github.com/chantouchsek/v-sanitize",
+	"main": "dist/sanitize.js",
+	"types": "dist/sanitize.d.ts",
+	"scripts": {
+		"build": "rimraf dist && npx tsc",
+		"release": "standard-version && git push --follow-tags origin main && yarn publish",
+		"prepublish": "yarn build",
+		"test": "vitest",
+		"coverage": "vitest run --coverage",
+		"dev": "vite"
 	},
-	"include": [
-		"./src/**/*.ts",
-		"./src/**/*.ts",
-		"./src/**/*.tsx",
-		"./src/**/*.vue",
-		"./example/src/**/*.ts",
-		"./example/src/**/*.ts",
-		"./example/src/**/*.tsx",
-		"./example/src/**/*.vue"
+	"files": [
+		"dist",
+		"nuxt"
 	],
-	"exclude": [
-		"node_modules",
-		"**/__tests__/*",
-		"coverage"
-	]
+	"keywords": [
+		"vue-sanitize",
+		"v-sanitize",
+		"vue",
+		"vue-plugin",
+		"sanitize"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chantouchsek/v-sanitize.git"
+	},
+	"author": {
+		"email": "chantouchsek.cs83@gmail.com",
+		"name": "Chantouch Sek",
+		"url": "https://chantouch.me"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"lodash.mergewith": "^4.6.2",
+		"sanitize-html": "^2.6.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.10.5",
+		"@babel/core": "^7.15.5",
+		"@babel/plugin-proposal-class-properties": "^7.14.5",
+		"@babel/plugin-proposal-object-rest-spread": "^7.15.6",
+		"@babel/plugin-transform-runtime": "^7.15.0",
+		"@babel/preset-env": "^7.15.6",
+		"@types/sanitize-html": "^2.6.2",
+		"@typescript-eslint/eslint-plugin": "^5.7.0",
+		"@typescript-eslint/parser": "^5.7.0",
+		"@vitejs/plugin-vue": "^3.2.0",
+		"@vue/test-utils": "^2.2.1",
+		"babel-plugin-transform-async-to-generator": "^6.24.1",
+		"babel-plugin-transform-es2017-object-entries": "^0.0.5",
+		"babel-preset-minify": "^0.5.1",
+		"eslint": "^8.5.0",
+		"eslint-plugin-vue": "^8.2.0",
+		"jsdom": "^20.0.1",
+		"prettier": "^2.4.1",
+		"rimraf": "^3.0.2",
+		"sass": "^1.55.0",
+		"standard-version": "^9.3.1",
+		"typescript": "^4.5.4",
+		"vite": "^3.2.1",
+		"vitest": "^0.24.3",
+		"vue": "^3.2.37"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
