@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/chantouchsek/v-sanitize/compare/v0.0.9...v0.0.10) (2022-12-20)
+
+
+### Bug Fixes
+
+* **deps:** bump decode-uri-component from 0.2.0 to 0.2.2 ([3456d6e](https://github.com/chantouchsek/v-sanitize/commit/3456d6e61472bc48c57a502550934942b17cc7f4))
+* **deps:** bump loader-utils from 1.4.0 to 1.4.1 ([8a87b82](https://github.com/chantouchsek/v-sanitize/commit/8a87b820011f669878865ee8d9012c9162c44604))
+* **deps:** bump loader-utils from 1.4.1 to 1.4.2 ([772889e](https://github.com/chantouchsek/v-sanitize/commit/772889e8f2cd97a7fb95894a3081b89f2bd372a9))
+* **deps:** bump sanitize-html from 2.7.0 to 2.7.1 ([49f7651](https://github.com/chantouchsek/v-sanitize/commit/49f765149916382bad68dca202874e73453e0b52))
+* **deps:** bump sanitize-html from 2.7.1 to 2.7.3 ([59e7cbd](https://github.com/chantouchsek/v-sanitize/commit/59e7cbd135a7d720153e83f33ab67755cb976c55))
+* **deps:** bump terser from 4.8.0 to 4.8.1 ([59b1987](https://github.com/chantouchsek/v-sanitize/commit/59b198718c0a2eb1cad948e9f6c88223b62fe3ae))
+
 ### [0.0.9](https://github.com/chantouchsek/v-sanitize/compare/v0.0.8...v0.0.9) (2022-07-08)
 
 
