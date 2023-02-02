@@ -43,7 +43,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash.mergewith": "^4.6.2",
-    "sanitize-html": "~2.8.1"
+    "sanitize-html": "~2.9.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
