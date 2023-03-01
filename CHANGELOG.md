@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/chantouchsek/v-sanitize/compare/v0.0.10...v0.0.11) (2023-03-01)
+
+
+### Bug Fixes
+
+* **deps:** bump sanitize-html from 2.6.1 to 2.8.1 ([3880acd](https://github.com/chantouchsek/v-sanitize/commit/3880acd0768bf899923f52ca0725d9bb89267fb4))
+* **deps:** bump sanitize-html from 2.8.1 to 2.10.0 ([b8e63f6](https://github.com/chantouchsek/v-sanitize/commit/b8e63f6a8cd93d3d254e68bfca1b3a992146b4da))
+* **deps:** bump ua-parser-js from 0.7.31 to 0.7.33 ([233b04a](https://github.com/chantouchsek/v-sanitize/commit/233b04a311bfefd3158c58d1db33069f725de8d4))
+
 ### [0.0.10](https://github.com/chantouchsek/v-sanitize/compare/v0.0.9...v0.0.10) (2022-12-20)
 
 
