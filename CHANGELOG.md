@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/chantouchsek/v-sanitize/compare/v0.0.11...v0.0.12) (2023-07-07)
+
+
+### Bug Fixes
+
+* :bug: specific sanitize-html verion ([ee489da](https://github.com/chantouchsek/v-sanitize/commit/ee489dac2dbb3de123ee185e4550fa511bb4dbd9))
+
 ### [0.0.11](https://github.com/chantouchsek/v-sanitize/compare/v0.0.10...v0.0.11) (2023-03-01)
 
 
