@@ -8,9 +8,6 @@
     "strict": true,
     "declaration": true,
     "outDir": "dist",
-    "typeRoots": [
-      "./node_modules/@types"
-    ],
     "types": ["@nuxt/types"],
     "sourceMap": true
   },
