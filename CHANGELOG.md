@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/chantouchsek/v-sanitize/compare/v0.0.12...v0.0.13) (2023-07-19)
+
+
+### Bug Fixes
+
+* **deps:** bump semver from 5.7.1 to 5.7.2 ([c0051c4](https://github.com/chantouchsek/v-sanitize/commit/c0051c403f7435782c8cdec8866e42ff628c4817))
+* **deps:** bump word-wrap from 1.2.3 to 1.2.4 ([f0e80ac](https://github.com/chantouchsek/v-sanitize/commit/f0e80ac0f4fd1e509c97cf5e60df57a5c7b2326e))
+
 ### [0.0.12](https://github.com/chantouchsek/v-sanitize/compare/v0.0.11...v0.0.12) (2023-07-07)
 
 
