@@ -62,7 +62,7 @@
     "babel-preset-minify": "^0.5.1",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^9.18.1",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.9.3",
     "prettier": "^2.4.1",
     "rimraf": "^5.0.1",
     "standard-version": "^9.3.1",
