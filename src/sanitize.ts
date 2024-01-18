@@ -52,10 +52,7 @@ const VSanitize = {
         const { name = 'sanitize' } = defaultOptions;
         delete defaultOptions.name
         const options1 = { ...defaultOptions } as IOptions
-        
-        const vueProto = Vue?.config?.globalProperties ?? Vue.prototype;
-        vueProto[`$${name}`] = (dirty: string, opts = undefined) => sanitizeHtml(dirty, opts || options1);
-        
+        Vue.prototype[`$${name}`] = (dirty: string, opts = undefined) => sanitizeHtml(dirty, opts || options1);
         Vue.directive(name,  (el, binding) => {
             if (binding.value !== binding.oldValue) {
                 if (Array.isArray(binding.value)) {
