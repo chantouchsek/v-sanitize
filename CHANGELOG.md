@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/chantouchsek/v-sanitize/compare/v0.0.13...v0.0.14) (2024-09-18)
+
+
+### Bug Fixes
+
+* **deps:** bump @babel/traverse from 7.22.11 to 7.23.2 ([3fa2765](https://github.com/chantouchsek/v-sanitize/commit/3fa276560901dc73c05fe89a57f150a39b5b0f99))
+* **deps:** bump actions/checkout from 3 to 4 ([8fd090a](https://github.com/chantouchsek/v-sanitize/commit/8fd090a565637255bf6652579b7ff19a7ffdae66))
+* **deps:** bump browserify-sign from 4.2.1 to 4.2.2 ([d651b9e](https://github.com/chantouchsek/v-sanitize/commit/d651b9ea90f418647d6b0644db8ee37c02fc2105))
+* **deps:** bump elliptic from 6.5.4 to 6.5.7 ([c5c7d81](https://github.com/chantouchsek/v-sanitize/commit/c5c7d81fc333422270476027378302ac3437e0aa))
+* **deps:** bump github/codeql-action from 2 to 3 ([acb010d](https://github.com/chantouchsek/v-sanitize/commit/acb010d6c0e3eaf4339efe9e4b1b7808719ae673))
+* **deps:** bump ip from 1.1.8 to 1.1.9 ([d7ded12](https://github.com/chantouchsek/v-sanitize/commit/d7ded12325d40360086239309484e5c625f3b2f0))
+* **deps:** bump serve-static from 1.15.0 to 1.16.2 ([21ea527](https://github.com/chantouchsek/v-sanitize/commit/21ea527aaf2529583b414c617c280080b28c0c12))
+* **deps:** bump tar from 6.1.11 to 6.2.1 ([7875507](https://github.com/chantouchsek/v-sanitize/commit/78755070a4c7fd1f5013ff74807303bb1aafcbaf))
+* **deps:** bump ws from 7.5.8 to 7.5.10 ([ae7c15f](https://github.com/chantouchsek/v-sanitize/commit/ae7c15f57cb6bfa31f01af8ad80e60311dab33e6))
+
 ### [0.0.13](https://github.com/chantouchsek/v-sanitize/compare/v0.0.12...v0.0.13) (2023-07-19)
 
 

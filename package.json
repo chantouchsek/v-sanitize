@@ -1,6 +1,6 @@
 {
   "name": "v-sanitize",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Whitelist-based HTML sanitizer for Vue.js apps.",
   "homepage": "https://github.com/chantouchsek/v-sanitize",
   "main": "dist/sanitize.js",
