@@ -60,7 +60,7 @@
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-es2017-object-entries": "^0.0.5",
     "babel-preset-minify": "^0.5.1",
-    "eslint": "^8.5.0",
+    "eslint": "^9.16.0",
     "eslint-plugin-vue": "^9.18.1",
     "nuxt": "^2.15.8",
     "prettier": "^2.4.1",
