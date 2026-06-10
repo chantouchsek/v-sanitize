@@ -3,6 +3,9 @@
   "version": "0.0.14",
   "description": "Whitelist-based HTML sanitizer for Vue.js apps.",
   "homepage": "https://github.com/chantouchsek/v-sanitize",
+  "bugs": {
+    "url": "https://github.com/chantouchsek/v-sanitize/issues"
+  },
   "main": "dist/sanitize.js",
   "types": "dist/sanitize.d.ts",
   "scripts": {
