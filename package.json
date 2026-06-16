@@ -25,6 +25,9 @@
     "type": "git",
     "url": "https://github.com/chantouchsek/v-sanitize.git"
   },
+  "bugs": {
+    "url": "https://github.com/chantouchsek/v-sanitize/issues"
+  },
   "author": {
     "email": "chantouchsek.cs83@gmail.com",
     "name": "Chantouch Sek",
